@@ -6,7 +6,7 @@ const Video: React.FC = () => {
     <div className={styles.videoContainer}>
       <iframe
         width="100%"
-        height="650"
+        height="550"
         src="https://www.youtube.com/embed/kdJUp8zd5UY"
         title="YouTube video player"
         frameBorder="0"
