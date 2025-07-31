@@ -1,0 +1,50 @@
+.container {
+    background-color: #3A3C93;
+
+    padding: 80px 125px;
+
+    margin-top: 50px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img {
+    width: 80px;
+    height: auto;
+}
+
+.top a {
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #fff;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+
+    background-color: #FFCD01;
+
+    margin-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    margin-top: 29px;
+}
+
+.bottom img {
+    width: 20px;
+    height: auto;
+}

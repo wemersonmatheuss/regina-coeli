@@ -9,6 +9,7 @@ import { Person } from "../components/Person"
 import { Frase } from "../components/Frase"
 import { Feedbacks } from "../components/Feedbacks"
 import { Form } from "../components/Form"
+import { Footer } from "../components/Footer"
 
 export function Home() {
     return (
@@ -21,6 +22,7 @@ export function Home() {
             <Frase/>
             <Feedbacks/>
             <Form/>
+            <Footer/>
         </div>
     )
 }
