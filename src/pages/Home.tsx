@@ -8,6 +8,7 @@ import Video from "../components/Video"
 import { Person } from "../components/Person"
 import { Frase } from "../components/Frase"
 import { Feedbacks } from "../components/Feedbacks"
+import { Form } from "../components/Form"
 
 export function Home() {
     return (
@@ -19,6 +20,7 @@ export function Home() {
             <Person/>
             <Frase/>
             <Feedbacks/>
+            <Form/>
         </div>
     )
 }
