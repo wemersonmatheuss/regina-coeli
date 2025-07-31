@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router";
 
-import { Home } from "../pages/home";
+import { Home } from "../pages/Home";
 
 export function AppRoutes() {
     return (
