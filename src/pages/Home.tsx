@@ -6,6 +6,7 @@ import Banner from "../components/Banner"
 import { Cta } from "../components/Cta"
 import Video from "../components/Video"
 import { Person } from "../components/Person"
+import { Frase } from "../components/Frase"
 
 export function Home() {
     return (
@@ -15,6 +16,7 @@ export function Home() {
             <Cta/>
             <Video/>
             <Person/>
+            <Frase/>
         </div>
     )
 }
