@@ -1,7 +1,11 @@
+import {} from "../main.css"
+
+import { Nav } from "../components/Nav"
+
 export function Home() {
     return (
         <div>
-            <h1>Página Home</h1>
+            <Nav/>
         </div>
     )
 }

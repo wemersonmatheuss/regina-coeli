@@ -1,0 +1,20 @@
+.container button {
+    padding: 14px 44px;
+
+    background-color: #3A3C93;
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: opacity 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.container button:hover {
+    opacity: 0.7;
+}
