@@ -7,6 +7,7 @@ import { Cta } from "../components/Cta"
 import Video from "../components/Video"
 import { Person } from "../components/Person"
 import { Frase } from "../components/Frase"
+import { Feedbacks } from "../components/Feedbacks"
 
 export function Home() {
     return (
@@ -17,6 +18,7 @@ export function Home() {
             <Video/>
             <Person/>
             <Frase/>
+            <Feedbacks/>
         </div>
     )
 }

@@ -1,0 +1,57 @@
+.container {
+    width: 350px;
+    height: auto;
+
+    border: 1px solid #484848;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.container .title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container .title img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .avaliaton {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    margin-top: 6px;
+}
+
+.container .avaliaton .estrela {
+    display: flex;
+    gap: 3px;
+}
+
+.container .avaliaton .estrela img {
+    width: 17px;
+    height: auto;
+}
+
+.container .avaliaton p {
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 3px;
+}
+
+.container .name p {
+    margin-top: 6px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}

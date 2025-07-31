@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 35px 0;
+}
+
+.container .title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .title h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.container .title .estrela img {
+    width: 30px;
+    height: auto;
+    margin: 0 3px;
+}
+
+.container .feedbacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-top: 55px;
+}
