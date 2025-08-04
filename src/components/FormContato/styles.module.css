@@ -44,6 +44,19 @@
 
 .form form .input input {
     width: 469px;
+
+    border: 1px solid #000;
+}
+
+
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  appearance: none; /* tira o estilo nativo */
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none; /* Firefox */
 }
 
 
@@ -52,6 +65,8 @@
 
     border-radius: 10px;
     border: none;
+
+    font-size: 16px;
 
     background-color: #3A3C93;
     color: #fff;
