@@ -18,3 +18,11 @@
 .container button:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 428px) {
+    .container button {
+        padding: 18px 18px;
+
+        font-size: 16px;
+    }
+}

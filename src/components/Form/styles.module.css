@@ -88,3 +88,19 @@ form .campo label {
 .container .mapa {
     width: 50%;
 }
+
+@media screen and (max-width: 428px) {
+    .container {
+        flex-direction: column;
+
+        padding-inline: 20px;
+    }
+
+    .container .contact {
+        width: 100%;
+    }
+
+    .container .contact .title p {
+        font-size: 20px;
+    }
+}

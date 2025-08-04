@@ -12,4 +12,32 @@
 .container h1 {
     font-size: 42px;
     font-weight: 600;
+
+    text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        padding: 66px 60px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+  .container {
+    padding: 40px 30px;
+  }
+
+  .container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .container {
+    padding: 20px;
+  }
+
+  .container h1 {
+    font-size: 18px;
+  }
 }

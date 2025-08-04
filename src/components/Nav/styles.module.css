@@ -10,3 +10,29 @@
     width: 253px;
     height: auto;
 }
+
+.container button {
+    width: auto;
+}
+
+@media screen and (max-width: 884px) {
+    .container {
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .container {
+        padding: 15px 20px;
+    }
+
+    .container img {
+        width: 170px;
+        height: auto;
+    }
+
+    .container button {
+        width: 170px;
+    }
+
+}

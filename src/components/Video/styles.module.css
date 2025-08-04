@@ -12,3 +12,13 @@ iframe {
   height: 550px;
   border: none;
 }
+
+@media screen and (max-width: 428px) {
+  .videoContainer {
+    height: 350px;
+  }
+
+  iframe {
+    height: 350px;
+  }
+}

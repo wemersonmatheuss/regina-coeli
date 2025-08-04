@@ -38,3 +38,41 @@
 .description button {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1280px) {
+    .container {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+  .container {
+    padding: 0px;
+
+    margin-top: -200px;
+    margin-bottom: 50px;
+
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 428px) {
+    .container {
+        margin-top: -450px;
+    }
+
+    .image img {
+        width: 358px;
+    }
+
+    .description {
+        width: 100%;
+        
+        padding-inline: 30px;
+    }
+
+    .description h2 {
+        font-size: 24px;
+    }
+}

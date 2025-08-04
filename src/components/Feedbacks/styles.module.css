@@ -36,3 +36,13 @@
 
     margin-top: 55px;
 }
+
+@media screen and (max-width: 428px) {
+    .container .title h2 {
+        font-size: 24px;
+    }
+
+    .container .title .estrela img {
+        width: 18px;
+    }
+}
