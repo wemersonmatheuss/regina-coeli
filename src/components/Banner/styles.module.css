@@ -56,3 +56,10 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .bannerContainer img {
+    width: 375px;
+    height: auto;
+  }
+}
