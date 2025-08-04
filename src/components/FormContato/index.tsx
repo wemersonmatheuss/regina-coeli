@@ -27,12 +27,12 @@ export function FormContato() {
 
                     <div className={styles.input}>
                         <label htmlFor="">Data</label>
-                        <input type="date" placeholder="Escolha uma data" />
+                        <input type="date" placeholder="Escolha uma data" defaultValue="2025-08-04" />
                     </div>
 
                     <div className={styles.input}>
                         <label htmlFor="">Horário</label>
-                        <input type="time" placeholder="Escolha um horário" />
+                        <input type="time" placeholder="Escolha um horário"  defaultValue="14:00"/>
                     </div>
 
                     <div className={styles.button}>
