@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+
+    padding:  30px 125px;
+
+    color: #242222;
+}
+
+.container .title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.container .title h1 {
+    font-size: 24px;
+    font-weight: 600;
+
+    color: #3A3C93;
+}
+
+.container .title p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #242222;
+}
+
+.form form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.form form .input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form form .input input {
+    width: 469px;
+}
+
+
+.form form .button button {
+    padding: 15px 40px;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: #3A3C93;
+    color: #fff;
+
+    transition: opacity 0.3s ease-in-out;
+    
+    cursor: pointer;
+
+    margin-top: 25px;
+}
